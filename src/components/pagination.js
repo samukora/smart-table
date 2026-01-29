@@ -46,8 +46,8 @@ export const initPagination = (
     );
 
     fromRow.textContent = (page - 1) * limit + 1;
-    toRow.textContent = Math.min(page * limit, page.length);
-    totalRows.textContent = page.length;
+    toRow.textContent = Math.min(page * limit, total);
+    totalRows.textContent = total;
   };
 
   return {

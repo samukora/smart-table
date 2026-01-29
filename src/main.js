@@ -13,7 +13,7 @@ import { initFiltering } from "./components/filtering.js";
 import { initSearching } from "./components/searching.js";
 
 // Исходные данные используемые в render()
-const API = initData(sourceData);
+const API = initData();
 
 /**
  * Сбор и обработка полей из таблицы
